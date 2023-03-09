@@ -5,11 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
   <link rel="stylesheet" href="./style.css"/>
+  <script src="https://unpkg.com/swup@3"></script>
+
   <title>Décapitons les</title>
 </head>
 <body>
+  <div id="swup">
   <nav class="pa3 pa4-ns">
-    <a class="link dim black b f6 f5-ns dib mr3" href="/" title="Home">Décapitons les</a>
+    <a class="link dim black b f6 f5-ns dib mr3" href="./index.html" title="Home">Décapitons les</a>
     <a class="link dim gray    f6 f5-ns dib mr3" href="./les-coupables.html" title="Home">Les coupables</a>
     <a class="link dim gray    f6 f5-ns dib mr3" href="./les-complices.html" title="About">Les complices</a>
     <a class="link dim gray    f6 f5-ns dib mr3" href="#" title="Store">Revue de presse</a>
@@ -52,6 +55,9 @@
       </p>
     </div>
   </article>
-
+</div>
+  <script type="text/javascript">
+    const swup = new Swup();
+  </script>
 </body>
 </html>
